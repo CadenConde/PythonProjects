@@ -1,0 +1,173 @@
+int TenLineFunction1() {
+    int i = 0; k = 2; // +2
+    for(int n = 0; n<10; n++){ // +3
+        for(int m = 0; m<10; m++){ // +3
+            k++; // +1
+        } 
+    } 
+    return k // +1
+}
+
+int TenLineFunction2() {
+    int i = 1; // +1
+    while(i < 1000){ // +1
+        if(i < 6){ // +1
+            if(i < 6){ //+1 
+                if(i < 6){ //+1
+                    if(i < 6){ //+1
+                        if(i < 6){ //+2
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }
+                else{
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }
+            }
+            else{
+                if(i < 6){
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }
+                else{
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }    
+            }
+        }
+        else{
+            if(i < 6){
+                if(i < 6){
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }
+                else{
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }
+            }
+            else{
+                if(i < 6){
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }
+                else{
+                    if(i < 6){
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                    else{
+                        if(i < 6){
+                            i++;
+                        }
+                        else{
+                            i++;
+                        }
+                    }
+                }    
+            }
+        }
+    }
+    printf("WTF?\n") // +1
+    return 0; // +1
+}
